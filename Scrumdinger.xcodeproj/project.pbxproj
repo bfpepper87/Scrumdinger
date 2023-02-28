@@ -14,6 +14,10 @@
 		9EBC306929AE467F00A7F7AB /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC306829AE467F00A7F7AB /* ScrumdingerTests.swift */; };
 		9EBC307329AE467F00A7F7AB /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC307229AE467F00A7F7AB /* ScrumdingerUITests.swift */; };
 		9EBC307529AE467F00A7F7AB /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC307429AE467F00A7F7AB /* ScrumdingerUITestsLaunchTests.swift */; };
+		9EBC308329AE569400A7F7AB /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC308229AE569400A7F7AB /* Theme.swift */; };
+		9EBC308529AE581600A7F7AB /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC308429AE581600A7F7AB /* DailyScrum.swift */; };
+		9EBC308729AE591600A7F7AB /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC308629AE591600A7F7AB /* CardView.swift */; };
+		9EBC308929AE5C3F00A7F7AB /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EBC308829AE5C3F00A7F7AB /* TrailingIconLabelStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		9EBC306E29AE467F00A7F7AB /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EBC307229AE467F00A7F7AB /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		9EBC307429AE467F00A7F7AB /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9EBC308229AE569400A7F7AB /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		9EBC308429AE581600A7F7AB /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
+		9EBC308629AE591600A7F7AB /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9EBC308829AE5C3F00A7F7AB /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,11 +103,14 @@
 		9EBC305529AE467E00A7F7AB /* Scrumdinger */ = {
 			isa = PBXGroup;
 			children = (
+				9EBC308829AE5C3F00A7F7AB /* TrailingIconLabelStyle.swift */,
+				9EBC308129AE563500A7F7AB /* Models */,
 				9EBC305629AE467E00A7F7AB /* ScrumdingerApp.swift */,
 				9EBC305829AE467E00A7F7AB /* MeetingView.swift */,
 				9EBC305A29AE467F00A7F7AB /* Assets.xcassets */,
 				9EBC305C29AE467F00A7F7AB /* Scrumdinger.entitlements */,
 				9EBC305D29AE467F00A7F7AB /* Preview Content */,
+				9EBC308629AE591600A7F7AB /* CardView.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -127,6 +138,15 @@
 				9EBC307429AE467F00A7F7AB /* ScrumdingerUITestsLaunchTests.swift */,
 			);
 			path = ScrumdingerUITests;
+			sourceTree = "<group>";
+		};
+		9EBC308129AE563500A7F7AB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9EBC308229AE569400A7F7AB /* Theme.swift */,
+				9EBC308429AE581600A7F7AB /* DailyScrum.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +279,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EBC308529AE581600A7F7AB /* DailyScrum.swift in Sources */,
+				9EBC308929AE5C3F00A7F7AB /* TrailingIconLabelStyle.swift in Sources */,
+				9EBC308329AE569400A7F7AB /* Theme.swift in Sources */,
 				9EBC305929AE467E00A7F7AB /* MeetingView.swift in Sources */,
 				9EBC305729AE467E00A7F7AB /* ScrumdingerApp.swift in Sources */,
+				9EBC308729AE591600A7F7AB /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
